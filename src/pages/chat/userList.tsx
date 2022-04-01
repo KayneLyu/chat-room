@@ -3,11 +3,13 @@ import keqing from "../../asset/avatar/keqing.png";
 import abeiduo from "../../asset/avatar/abeiduo.png";
 import qiqi from "../../asset/avatar/qiqi.png";
 
-interface IAvatar {}
-const avatarMap = {
-  1: keqing,
-  2: abeiduo,
-  3: qiqi,
+interface IAvatar {
+  [string: string]: string;
+}
+const avatarMap:IAvatar = {
+  0: keqing,
+  1: abeiduo,
+  2: qiqi,
 };
 
 function UserList() {

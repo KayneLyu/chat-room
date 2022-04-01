@@ -9,5 +9,4 @@ function ChatContent() {
   );
 }
 
-
 export default ChatContent;
