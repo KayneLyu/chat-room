@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import UserList from "./userList";
+import ChatContent from "./chatContent";
 import "./index.css";
 
 function ChatPage() {
@@ -135,7 +136,8 @@ function ChatPage() {
     <div className="chatPage">
       <canvas id="canvas"></canvas>
       <div className="chatArea">
-        <UserList></UserList>
+        <UserList />
+        <ChatContent />
       </div>
     </div>
   );
